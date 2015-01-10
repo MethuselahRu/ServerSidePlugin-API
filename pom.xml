@@ -2,10 +2,10 @@
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<name>methuselah-plugin-api</name>
+	<name>ru.methuselah.serversideplugin.api</name>
 	<groupId>ru.methuselah</groupId>
 	<artifactId>serversideplugin-api</artifactId>
-	<version>0.12a</version>
+	<version>0.13a</version>
 	<packaging>jar</packaging>
 
 	<properties>
@@ -27,7 +27,7 @@
 		<dependency>
 			<groupId>ru.methuselah</groupId>
 			<artifactId>authlib</artifactId>
-			<version>0.12a</version>
+			<version>0.13a</version>
 			<scope>compile</scope>
 		</dependency>
 	</dependencies>
@@ -40,8 +40,8 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.2</version>
 				<configuration>
-					<source>1.7</source>
-					<target>1.7</target>
+					<source>1.6</source>
+					<target>1.6</target>
 					<debug>true</debug>
 					<verbose>false</verbose>
 					<showDeprecation>true</showDeprecation>
@@ -54,9 +54,6 @@
 				<configuration>
 					<archive>
 						<addMavenDescriptor>false</addMavenDescriptor>
-						<!--manifest>
-							<mainClass>${project.groupId}.${project.artifactId}.VanillaMain</mainClass>
-						</manifest-->
 					</archive>
 					<excludes>
 						<exclude>.*</exclude>
@@ -82,11 +79,5 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<!--resources>
-			<resource>
-				<directory>src/main/resources</directory>
-				<filtering>true</filtering>
-			</resource>
-		</resources-->
 	</build>
 </project>

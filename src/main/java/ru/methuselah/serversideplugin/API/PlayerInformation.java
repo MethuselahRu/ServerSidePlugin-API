@@ -8,6 +8,7 @@ public class PlayerInformation
 	UUID         uuid;
 	UserRole     role;
 	UserProvider provider;
+	boolean      launcher;
 	public UUID getUUID()
 	{
 		return uuid;
@@ -19,6 +20,10 @@ public class PlayerInformation
 	public UserProvider getUserProvider()
 	{
 		return provider;
+	}
+	public boolean isUsingCustomLauncher()
+	{
+		return launcher;
 	}
 	public UUID[] getBoundUUIDs()
 	{
