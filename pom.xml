@@ -5,7 +5,7 @@
 	<name>ru.methuselah.serversideplugin.api</name>
 	<groupId>ru.methuselah</groupId>
 	<artifactId>serversideplugin-api</artifactId>
-	<version>0.13a</version>
+	<version>0.14a</version>
 	<packaging>jar</packaging>
 
 	<properties>
@@ -27,7 +27,7 @@
 		<dependency>
 			<groupId>ru.methuselah</groupId>
 			<artifactId>authlib</artifactId>
-			<version>0.13a</version>
+			<version>0.14a</version>
 			<scope>compile</scope>
 		</dependency>
 	</dependencies>
