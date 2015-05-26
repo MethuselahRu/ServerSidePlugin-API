@@ -1,5 +1,5 @@
 package ru.methuselah.serversideplugin.API;
-import java.io.IOException;
+
 import java.util.UUID;
 import ru.methuselah.authlib.exceptions.ResponseException;
 

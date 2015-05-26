@@ -1,4 +1,5 @@
 package ru.methuselah.serversideplugin.API;
+
 import java.util.UUID;
 import ru.methuselah.authlib.UserProvider;
 import ru.methuselah.authlib.UserRole;
