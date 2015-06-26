@@ -1,7 +1,7 @@
 package ru.methuselah.serversideplugin.API;
 
 import java.util.UUID;
-import ru.methuselah.authlib.exceptions.ResponseException;
+import ru.methuselah.authlib.methods.ResponseException;
 
 public abstract class ServerSideAPI
 {
@@ -24,7 +24,7 @@ public abstract class ServerSideAPI
 	 * Получение базовой информации об игроке
 	 * @param uuid уникальный идентификатор игрока
 	 * @return Объект, содержащий методы получения информации об игроке
-	 * @throws ru.methuselah.authlib.exceptions.ResponseException при возникновении сетевых и иных проблем
+	 * @throws ru.methuselah.authlib.methods.ResponseException при возникновении сетевых и иных проблем
 	 */
 	public abstract PlayerInformation getPlayerInfo(UUID uuid) throws ResponseException;
 }
